@@ -1,1 +1,1 @@
-
+PS C: \Sysmon>  .\sysmon64.exe –i  sysmonconfig-export.xml

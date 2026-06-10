@@ -48,7 +48,7 @@ Windows 10 (Victim Endpoint)
 Splunk Universal Forwarder
         │
         ▼
-Splunk Enterprise (Ubuntu Server)
+Splunk Enterprise (kali Server)
 ```
 
 ---
@@ -57,7 +57,7 @@ Splunk Enterprise (Ubuntu Server)
 
 | System        | Role                          | IP Address   |
 | ------------- | ----------------------------- | ------------ |
-| Ubuntu Server | Splunk Enterprise SIEM        | 192.168.1.10 |
+| kali Server | Splunk Enterprise SIEM        | 192.168.1.10 |
 | Windows 10    | Victim Endpoint (Sysmon + UF) | 192.168.1.20 |
 | Kali Linux    | Attack Simulation Machine     | 192.168.1.30 |
 
@@ -71,7 +71,7 @@ Splunk Enterprise (Ubuntu Server)
 * 🔴 Atomic Red Team
 * 🧠 MITRE ATT&CK Framework
 * 💻 Windows Event Logging
-* 🐧 Ubuntu Server
+* 🐧 kali Server
 * 🐉 Kali Linux
 
 ---

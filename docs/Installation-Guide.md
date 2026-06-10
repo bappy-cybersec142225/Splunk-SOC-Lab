@@ -141,31 +141,39 @@ Lab Environment
 | Victim Machine | 192.168.1.20   | Windows 10/11 |
 | Splunk UF      | Latest Version | Windows       |
 
+
 Step 1: Download Splunk Universal Forwarder
-https://www.splunk.com/en_us/download/universal-forwarder.html?utm_source=chatgpt.com
+
+https://www.splunk.com/en_us/download/universal-forwarder.html?
 splunkforwarder-10.4.0-x64-release.msi
 
 Step 2: Install Universal Forwarder
+
 Double-click the MSI file.
 Accept License
 ✓ Accept License Agreement
 
 Local System Installation
+
 Local System
 
 Administrator Credentials
+
 Username: admin
 Password: StrongPassword123!
 
 Installation Path
+
 C:\Program Files\SplunkUniversalForwarder
 
 Step 3: Verify Installation
+
 Open PowerShell as Administrator.
 cd "C:\Program Files\SplunkUniversalForwarder\bin"
 .\splunk.exe status
 
 Step 4: Start Universal Forwarder
+
 .\splunk.exe start
 y
 .\splunk.exe enable boot-start

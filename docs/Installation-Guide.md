@@ -145,11 +145,13 @@ Lab Environment
 Step 1: Download Splunk Universal Forwarder
 
 https://www.splunk.com/en_us/download/universal-forwarder.html?
+
 splunkforwarder-10.4.0-x64-release.msi
 
 Step 2: Install Universal Forwarder
 
 Double-click the MSI file.
+
 Accept License
 ✓ Accept License Agreement
 
@@ -169,6 +171,7 @@ C:\Program Files\SplunkUniversalForwarder
 Step 3: Verify Installation
 
 Open PowerShell as Administrator.
+
 cd "C:\Program Files\SplunkUniversalForwarder\bin"
 .\splunk.exe status
 

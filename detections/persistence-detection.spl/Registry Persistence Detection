@@ -1,4 +1,0 @@
-index=wineventlog sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
-EventCode=13
-TargetObject="*\\CurrentVersion\\Run*"
-| table _time Computer User TargetObject Details

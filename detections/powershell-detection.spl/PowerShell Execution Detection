@@ -1,4 +1,0 @@
-index=wineventlog sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"
-EventCode=1
-Image="*\\powershell.exe"
-| table _time Computer User Image CommandLine

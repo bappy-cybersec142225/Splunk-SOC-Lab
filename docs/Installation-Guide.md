@@ -1,9 +1,4 @@
 Splunk Enterprise Installation & Configuration Guide (Kali Linux)
-Lab Environment
-OS: Kali Linux
-Splunk Version: Splunk Enterprise
-Hostname: splunk-server
-IP Address: Kali Linux IP
 
 # Step 1: Download Splunk Enterprise
 Visit the official Splunk download page:
